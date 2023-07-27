@@ -1208,7 +1208,7 @@ static size_t parse_number(struct libinjection_sqli_state * sf)
  * without having to regenerated the SWIG (or other binding) in minor
  * releases.
  */
-const char* libinjection_version(void)
+const char* libinjection_version()
 {
     return LIBINJECTION_VERSION;
 }
